@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(241, 227, 169);
+}
+
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 60px;
+    color: aliceblue ;
+}
+
+nav li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.brand img{
+    height: 50px;
+    padding: 0 10px 0 0;
+    margin-left: -5px;
+}
+.ContactUs{
+    margin-left: auto;
+}
+
+.brand{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+.container{
+    min-height: 62vh;
+    display: flex;
+    background-color: black;
+    color: rgb(125, 220, 52);
+    margin: 24px auto;
+    width: 70%;
+    border-radius: 12px;
+    margin: 23px auto;
+    padding: 34px;
+    background-image: url(bg.jpg);
+    position: sticky;
+
+
+}
+.songItemPlay{
+    cursor: pointer;
+}
+#progressBar{
+    width: 74vw;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.icons{
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.bottom{
+    background-color: rgb(30, 98, 9);
+    color: white;
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.songItemContainer{
+    margin-top: 54px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songItem img{
+    width: 43px;
+    border-radius: 34px;
+    margin: 0 5px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding: 0 10px;
+    width: 35vw;
+
+}
+.songInfo{
+    position: absolute;
+    left: 15vw;
+    display: flex;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+#songDuration{
+    position: absolute;
+    color: white;
+    align-items: center;
+    margin: 0 0 0 60vw;
+}
+#gif{
+    width: 50px;
+    transition: 1s;
+}
+.timestamp{
+    padding: 5px;
+    margin: 0;
+
+}
